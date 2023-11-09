@@ -19,24 +19,180 @@
 
 <body>
     <header>
-        <div class="nav_up">
-            <div class="container">
-                <div class="flex_navup">
-                    <div class="img_logo">
-
+        <nav class="nav_up d-flex align-items-center">
+            <div class="container d-flex justify-content-between">
+                <div class="scritta_logo">
+                    <h4 class="fw-bold color_white">START BOOTSTRAP</h4>
+                </div>
+                <div class="tendina_right border rounded d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="color_aqua py-4">
+            <div class="container d-flex  align-items-center justify-content-center flex-column">
+                <div>
+                    <img src="img/avatar.svg" alt="jumbo" class="img_jumbo">
+                </div>
+                <div>
+                    <h1 class="color_white fw-bold my-2">
+                        START BOOTSTRAP
+                    </h1>
+                </div>
+                <div class="border_star"></div>
+                <div>
+                    <span class="color_white">
+                        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container d-flex  align-items-center justify-content-center flex-column py-5">
+                <div class="my-3">
+                    <h2 class="fw-bold">PORTFOLIO</h2>
+                    <div class="border_star">
                     </div>
-                    <div class="tendina_right">
-                        
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="mt-4 col-12 col-md-6 col-lg-4">
+                            <img src="img/cabin.png" alt="cabina" class="card_img">
+                        </div>
+                        <div class="mt-4 col-12 col-md-6 col-lg-4">
+                            <img src="img/cake.png" alt="cake" class="card_img">
+                        </div>
+                        <div class="mt-4 col-12 col-md-6 col-lg-4">
+                            <img src="img/circus.png" alt="circus" class="card_img">
+                        </div>
+                        <div class="mt-4 col-12 col-md-6 col-lg-4">
+                            <img src="img/game.png" alt="game" class="card_img">
+                        </div>
+                        <div class="mt-4 col-12 col-md-6 col-lg-4">
+                            <img src="img/safe.png" alt="safe" class="card_img">
+                        </div>
+                        <div class="mt-4 col-12 col-md-6 col-lg-4">
+                            <img src="img/submarine.png" alt="submarine" class="card_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="color_aqua">
+            <div class="container d-flex  align-items-center justify-content-center flex-column py-5">
+                <div class="my-3">
+                    <h2 class="fw-bold color_white">ABOUT</h2>
+                    <div class="border_star color-white"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="mt-4 col-12 col-md-6 col-lg-6">
+                            <p class="color_white">
+                                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes
+                                the complete source files including HTML, CSS and JavaScript as well as optional LESS
+                                stylesheets for easy customization.
+                            </p>
+                        </div>
+                        <div class="mt-4 col-12 col-md-6 col-lg-6">
+                            <p class="color_white">
+                                Whether you're a student looking to showcase your work, a professional looking to
+                                attract clients, or a graphic artist looking to share your projects, this template is
+                                the perfect starting point!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-4">
+            <div class="container d-flex  align-items-center justify-content-center py-5">
+                <div class="my-3">
+                    <h2 class="fw-bold">CONTACT ME</h2>
+                    <div class="border_star"></div>
+                </div>
+            </div>
+            <div class="container">
+                <form action="" method="post">
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="text" name="name" placeholder="Name" class="input_style" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="email" name="email" placeholder="Email Address" class="input_style" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="text" name="phone-number" placeholder="Phone Number" class="input_style"
+                                required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <textarea name="message" rows="6" placeholder="Message" class="input_style"
+                                required></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-light back_color mt-2">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="back_grey_light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 color_white text-center my-4">
+                        <h5>LOCATION</h5>
+                        <span>
+                            2215 John Daniel Drive Clark, MO 54243
+                        </span>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 text-center my-4">
+                        <h5 class="color_white">AROUND THE WEB</h5>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="row d-flex">
+                                <div
+                                    class="d-flex justify-content-center align-items-center icon_social mx-1 border rounded-circle">
+                                    <i class="fa-brands fa-facebook-f color_white"></i>
+                                </div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center icon_social mx-1 border rounded-circle">
+                                    <i class="fa-brands fa-google-plus-g color_white"></i>
+                                </div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center icon_social mx-1 border rounded-circle">
+                                    <i class="fa-brands fa-twitter color_white"></i>
+                                </div>
+                                <div
+                                    class="d-flex justify-content-center align-items-center icon_social border rounded-circle">
+                                    <i class="fa-brands fa-linkedin-in color_white"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 text-center my-4">
+                        <h5 class="color_white">ABOUT FREELANCER</h5>
+                        <p class="color_white">
+                            Freelance is a free to use, open source Bootstrap theme created by <a href="#"
+                                class="link_bottom">Start Bootstrap</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="header_up">
-            <div class="container">
-
+        <div class="back_grey_strong">
+            <div class="container text-center py-4">
+                <span class="color_white">
+                    Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+                </span>
             </div>
         </div>
-    </header>
+    </footer>
 </body>
 
 </html>
