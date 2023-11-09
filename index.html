@@ -19,13 +19,33 @@
 
 <body>
     <header>
-        <nav class="nav_up d-flex align-items-center">
-            <div class="container d-flex justify-content-between">
-                <div class="scritta_logo">
-                    <h4 class="fw-bold color_white">START BOOTSTRAP</h4>
+        <nav class="nav_up d-flex flex-column align-items-center" style="padding-top:10px;">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <div class="scritta_logo w-50">
+                        <h4 class="fw-bold color_white">START BOOTSTRAP</h4>
+                    </div>
+                    <div class="d-flex justify-content-end w-50">
+                        <nav class="navbar navbar-dark">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent"
+                                    aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-                <div class="tendina_right border rounded d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="container">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="p-4">
+                        <h5 class="color_white">PORTFOLIO</h5>
+                        <h5 class="color_white">ABOUT</h5>
+                        <h5 class="color_white">CONTACT</h5>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -39,7 +59,9 @@
                         START BOOTSTRAP
                     </h1>
                 </div>
-                <div class="border_star"></div>
+                <div class="border_star">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div>
                     <span class="color_white">
                         GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
@@ -50,10 +72,11 @@
     </header>
     <main>
         <section>
-            <div class="container d-flex  align-items-center justify-content-center flex-column py-5">
+            <div class="container text-center py-5">
                 <div class="my-3">
                     <h2 class="fw-bold">PORTFOLIO</h2>
                     <div class="border_star">
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
                 <div class="container">
@@ -81,10 +104,12 @@
             </div>
         </section>
         <section class="color_aqua">
-            <div class="container d-flex  align-items-center justify-content-center flex-column py-5">
+            <div class="text-center py-5">
                 <div class="my-3">
                     <h2 class="fw-bold color_white">ABOUT</h2>
-                    <div class="border_star color-white"></div>
+                    <div class="border_star color-white">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -107,10 +132,12 @@
             </div>
         </section>
         <section class="pb-4">
-            <div class="container d-flex  align-items-center justify-content-center py-5">
+            <div class="container text-center py-5">
                 <div class="my-3">
                     <h2 class="fw-bold">CONTACT ME</h2>
-                    <div class="border_star"></div>
+                    <div class="border_star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
             </div>
             <div class="container">
@@ -193,6 +220,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
