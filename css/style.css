@@ -56,3 +56,14 @@
     text-decoration: none;
     color: #1abc9c;
 }
+
+.border_star{
+    width: 30%;
+    margin: 10px 0;
+}
+
+.line_left_right{
+    margin: 0 5px;
+    width: 30%;
+    border: 1px solid;
+}
